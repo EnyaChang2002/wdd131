@@ -1,0 +1,111 @@
+body {
+    height: 100vh;
+
+}
+
+#course-title {
+    display: block;
+    height: 70px;
+    font-size: 25px;
+    text-align: center;
+    /* put it here so the text are at the center */
+    color: white;
+    line-height: 70px;
+    /* for the top and bottom center */
+    font-family: "Momo Signature", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: navy;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+}
+
+a {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+
+    height: 100px;
+    font-size: 25px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    max-width: 1500px;
+    /* limited width */
+    margin: 0 auto;
+    font-family: "Momo Trust Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section {
+    border-radius: 15px;
+    border: 10px solid black;
+    height: 400px;
+    margin: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+section h1 {
+    margin: 0;
+    /* to get rid of the default margin */
+    background-color: navy;
+    color: white;
+}
+
+img {
+    width: 120px;
+}
+
+section p {
+    padding-left: 2rem;
+    text-align: top;
+    font-size: 20px;
+}
+
+#first {
+    grid-column: 1 / 2;
+}
+
+#second {
+    grid-column: 2 / 3;
+}
+
+/*
+#first {
+    flex: 3;
+}
+
+#second {
+    flex: 1;
+}
+*/
+
+footer {
+    text-align: center;
+    background-color: navy;
+    color: white;
+    font-size: 20px;
+}
