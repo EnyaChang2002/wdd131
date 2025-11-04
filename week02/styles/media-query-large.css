@@ -1,0 +1,12 @@
+
+
+@media screen and (min-width: 500px) {
+    /* Change through declaration within the media query the header to a black background with white text: This meant this */
+    header {
+        background-color: black;
+        color: white;
+    }
+    main {
+        grid-template-columns:1fr 1fr;
+    }
+}
