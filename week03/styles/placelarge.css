@@ -1,0 +1,124 @@
+@media screen and (min-width: 500px) {
+
+/* important */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+
+header {
+    background-color: #564256;
+    padding: 2rem;
+    text-align: center;
+}
+
+body {
+    background-color: green;
+}
+
+main {
+    position: relative;
+    margin-top: 2rem;
+
+}
+
+.sec1 {
+    position: absolute;
+    top: 100px;
+    left: 2rem;
+    padding: 5rem;
+    padding-top: 0;
+    max-width: 300px;
+    z-index: 3;
+}
+
+
+.sec1 h2 {
+    background-color: #564256;
+    position: absolute;
+    left: 2rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    z-index: 2;
+    box-shadow: 0 4px 16px gray;
+}
+
+.sec1 ul {
+    list-style: none;
+    background-color: rgb(255, 255, 255, 0.7);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 5rem;
+}
+    
+
+/* make the data and weather have grid to show? The window are transparent and has shadow */
+
+.sec2 {
+    position: absolute;
+    bottom: 100px;
+    right: 20rem;
+    padding: 5rem;
+    padding-top: 0;
+    border-radius: 8px;
+    z-index: 2;
+    max-width: 300px;
+}
+
+.sec2 h2 {
+    background-color: #564256;
+    position: absolute;
+    right: 2rem;
+    bottom: 5rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    z-index: 2;
+    box-shadow: 0 4px 16px gray;
+}
+
+.sec2 ul {
+    list-style: none;
+    background-color: rgb(255, 255, 255, 0.7);
+    position: absolute;
+    top: -40px;
+    left: -25px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+picture {
+    display: block;
+    z-index: 1;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+}
+
+picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    background-color: darkgoldenrod;
+    color: white;
+    font-size: 20px;
+    padding: 2rem;
+}
+
+}
