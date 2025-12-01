@@ -32,3 +32,8 @@ footer {
     border-radius: 8px;
     font-family: "Limelight", sans-serif;
 }
+
+img {
+    width: 500px;
+    height: auto;
+}
